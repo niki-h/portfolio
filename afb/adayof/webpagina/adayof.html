@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hier komt je titel</title>
+		<link rel="stylesheet" type="text/css" href="reset_plus.css">
+		<link rel="stylesheet" type="text/css" href="stijl.css">
+		<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+		<script src="script.js" defer></script>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<header>
+			<h1>What happened one day this week?</h1>
+		</header>
+		<main>
+			<section class="deel1">
+				<div class="titel">
+				</div>
+				<div class="uitleg">
+					<h2>Een woordje uitleg</h2>
+					<p>Deze data is verzameld op zaterdag 14 maart 2020 . 1 dag na de lockdown van onze school wegens het coronavirus. Ik verzamelde data over het onderwerp ‘vragen stellen’. Wie stelde de vraag? Waar werd de vraag gesteld? Over wat ging de vraag?</p>
+				</div>
+				<div class="aantal">
+
+				</div>
+				<div class="menu">
+					<h2>Onderwerpen</h2>
+					<!-- Control buttons -->
+		<div id="myBtnContainer">
+		  <button class="btn active" onclick="filterSelection('all')"> Toon alles</button>
+		  <button class="btn" onclick="filterSelection('huishouden')"> Huishouden</button>
+		  <button class="btn" onclick="filterSelection('waar')"> Waar is ...?</button>
+		  <button class="btn" onclick="filterSelection('eten')"> Eten / Drinken</button>
+		  <button class="btn" onclick="filterSelection('school')"> School</button>
+			<button class="btn" onclick="filterSelection('plannen')"> Plannen voor later</button>
+			<button class="btn" onclick="filterSelection('corona')"> Corona</button>
+			<button class="btn" onclick="filterSelection('smalltalk')"> Andere smalltalk</button>
+			<button class="btn" onclick="filterSelection('vrienden')"> Vrienden en kennisen</button>
+		</div>
+				</div>
+			</section>
+			<section class="deel2">
+				<div class="tijdlijn"><img src="afb/tijd.svg" alt="" align="center" /></div>
+				<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+		<div class="container">
+			<div class="filterDiv"><img src="afb/all.svg" alt="" align="center" /></div>
+		  <div class="filterDiv plannen"><img src="afb/plannen.svg" alt="" align="center" /></div>
+		  <div class="filterDiv eten"><img src="afb/eten.svg" alt="" align="center" /></div>
+		  <div class="filterDiv huishouden"><img src="afb/huishouden.svg" alt="" align="center" /></div>
+		  <div class="filterDiv school"><img src="afb/school.svg" alt="" align="center" /></div>
+		  <div class="filterDiv corona"><img src="afb/corona.svg" alt="" align="center" /></div>
+		  <div class="filterDiv smalltalk"><img src="afb/andere.svg" alt="" align="center" /></div>
+		  <div class="filterDiv waar"><img src="afb/waar.svg" alt="" align="center" /></div>
+		  <div class="filterDiv vrienden"><img src="afb/vrienden.svg" alt="" align="center" /></div>
+		</div>
+			</section>
+		</main>
+	</body>
+</html>
