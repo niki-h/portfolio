@@ -52,7 +52,7 @@ header ul a{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #ce796b;
+  background-color: #C33149;
 }
 .container:hover .overlay {
   opacity: 1;
@@ -157,6 +157,11 @@ header ul a{
 }
 .project .kleur {
     background-color: #ECEBE9;
+    min-height: 92vh;
+}
+.project #verticaal img {
+  margin: 0 5vw;
+  width: 70vw;
 }
 .project main img{
   padding-bottom: 5rem;
@@ -179,6 +184,10 @@ header ul a{
     width: 40vw;
     display: inline;
   }
+  .project #verticaal img {
+    margin: 0 20vw;
+    width: 40vw;
+  }
 }
 
 .contact main {
@@ -190,7 +199,7 @@ header ul a{
   font-weight: bold;
   font-size: 1.8rem;
   padding-bottom: 1rem;
-  color: #ce796b;
+  color: #C33149;
   text-transform: uppercase;
   width: 40rem;
   border-bottom: 1px solid #ce796b;
